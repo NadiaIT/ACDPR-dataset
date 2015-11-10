@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQdxLvCYWVUbc=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFQbhQ/GYcr8to=" name="HouseBuilder" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFQb7YB1YNzHj0=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQb7YB1YN0e7k=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbhQ/GYcr8to="/>
+					<ownedEnd xmi:id="AAAAAAFQb7YB1YN1OIc=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbnIo5lW+cUg="/>
+					<memberEnd xmi:idref="AAAAAAFQb7YB1YN0e7k="/>
+					<memberEnd xmi:idref="AAAAAAFQb7YB1YN1OIc="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFQb7YUwoO2NVk=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQb7YUwoO3/MU=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbhQ/GYcr8to="/>
+					<ownedEnd xmi:id="AAAAAAFQb7YUwoO4eIQ=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbm8NHlSJ2sY="/>
+					<memberEnd xmi:idref="AAAAAAFQb7YUwoO3/MU="/>
+					<memberEnd xmi:idref="AAAAAAFQb7YUwoO4eIQ="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFQb7YnF4QIkG0=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQb7YnF4QJMoM=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbhQ/GYcr8to="/>
+					<ownedEnd xmi:id="AAAAAAFQb7YnF4QKoOg=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbm8D1lQk3U0="/>
+					<memberEnd xmi:idref="AAAAAAFQb7YnF4QJMoM="/>
+					<memberEnd xmi:idref="AAAAAAFQb7YnF4QKoOg="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFQb7ZCsIRpy+k=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQb7ZCsIRq7A4=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbhQ/GYcr8to="/>
+					<ownedEnd xmi:id="AAAAAAFQb7ZCsIRrjCg=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbm75WFO/yvg="/>
+					<memberEnd xmi:idref="AAAAAAFQb7ZCsIRq7A4="/>
+					<memberEnd xmi:idref="AAAAAAFQb7ZCsIRrjCg="/>
+				</ownedMember>
+				<ownedAttribute xmi:id="AAAAAAFQb7phpo0bkHk=" name="interior" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQbnIo5lW+cUg=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQb7qAhI1enV0=" name="basement" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQbm8NHlSJ2sY=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQb7qVnY2hrwc=" name="roof" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQbm8D1lQk3U0=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQb7qmuI3kOHU=" name="structure" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQbm75WFO/yvg=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQbhTt4YfNppA=" name="HouseBuilder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQbhULvIfUras=" name="Housebuilder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAFQb7s2fI6WN6U=" name="Interior" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+				<ownedOperation xmi:id="AAAAAAFQbhVaE4feRbY=" name="Housebuilder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAFQb7tujY76Bvc=" name="Interior" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					<ownedParameter xmi:id="AAAAAAFQb7tujo77Xr8=" name="Basement" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+				<ownedOperation xmi:id="AAAAAAFQbhYp5YfqI8g=" name="Housebuilder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAFQb7ylFY+0VxQ=" name="Interior" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					<ownedParameter xmi:id="AAAAAAFQb7ylFY+1r5s=" name="Basement" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					<ownedParameter xmi:id="AAAAAAFQb7ylFY+2nwI=" name="Roof" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+				<ownedOperation xmi:id="AAAAAAFQbhZmZ4fwGq8=" name="Housebuilder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAFQb72HMZAo6So=" name="Interior" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					<ownedParameter xmi:id="AAAAAAFQb72HMpApQc4=" name="Basement" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					<ownedParameter xmi:id="AAAAAAFQb72HMpAqUhE=" name="Roof" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					<ownedParameter xmi:id="AAAAAAFQb72HMpAr4co=" name="Structure" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQbhniYYhxrQo=" name="CivilEngineer" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFQb8KZOpxp7BM=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQb8KZO5xqxhc=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbhniYYhxrQo="/>
+					<ownedEnd xmi:id="AAAAAAFQb8KZO5xrsYk=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQbhQ/GYcr8to="/>
+					<memberEnd xmi:idref="AAAAAAFQb8KZO5xqxhc="/>
+					<memberEnd xmi:idref="AAAAAAFQb8KZO5xrsYk="/>
+				</ownedMember>
+				<ownedAttribute xmi:id="AAAAAAFQbhoSGoib/8k=" name="houseType" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQbhoxJIiikDo=" name="houseBuilder" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQbhs5iIi3eYQ=" name="main" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQbm75WFO/yvg=" name="Structure" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFQbm8D1lQk3U0=" name="Roof" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFQbm8NHlSJ2sY=" name="Basement" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFQbnIo5lW+cUg=" name="Interior" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

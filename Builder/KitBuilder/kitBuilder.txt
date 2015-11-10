@@ -1,0 +1,5 @@
+An online shopping center provides their 
+customers an application that helps to take
+order from them. They provides garments, books,
+vedios for male and female customers
+seperately according to customers demand.

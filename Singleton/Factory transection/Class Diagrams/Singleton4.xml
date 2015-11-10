@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQd1DRaGkheTU=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFQa6pHl/pdmqU=" name="GarmentFactory" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedAttribute xmi:id="AAAAAAFQa7FYq/sSmVQ=" name="factory" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQa6pHl/pdmqU=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQdtWT6nDDHKc=" name="ID" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQa7G0O/siFAQ=" name="getInstance" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAFQa7H5w/spJE4=" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQa6pHl/pdmqU=" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+				<ownedOperation xmi:id="AAAAAAFQa7Io0/srUpk=" name="Produce" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQdtYKinFJbq0=" name="takeOrder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<generalization xmi:id="AAAAAAFQdtRMk291unU=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFQa6pHl/pdmqU=" general="AAAAAAFQds/NgG5lkdE="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQa6zRHvqHkRw=" name="BuyingHouseDashboard" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFQdtTaWW+Xb1w=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQdtTaWm+Y9hg=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQa6zRHvqHkRw="/>
+					<ownedEnd xmi:id="AAAAAAFQdtTaWm+ZBiQ=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQa6pHl/pdmqU="/>
+					<memberEnd xmi:idref="AAAAAAFQdtTaWm+Y9hg="/>
+					<memberEnd xmi:idref="AAAAAAFQdtTaWm+ZBiQ="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFQdtTpmW/aIe4=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQdtTpmm/b5iE=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQa6zRHvqHkRw="/>
+					<ownedEnd xmi:id="AAAAAAFQdtTpmm/cYvY=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQdtCywG6pTHM="/>
+					<memberEnd xmi:idref="AAAAAAFQdtTpmm/b5iE="/>
+					<memberEnd xmi:idref="AAAAAAFQdtTpmm/cYvY="/>
+				</ownedMember>
+				<ownedAttribute xmi:id="AAAAAAFQa63Ksvr2ZD4=" name="FactoryNames" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQa66c5fr9tmw=" name="AmountOfPurchase" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQa69nNfsEWdg=" name="CostOfPurchase" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQa6++TvsLTEM=" name="NoOfTransactions" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQds/NgG5lkdE=" name="Factory" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedAttribute xmi:id="AAAAAAFQds/q6m6PtTQ=" name="ID" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQdtASHW6WOI8=" name="Produce" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQdtBRvW6dWo0=" name="takeOrder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQdtCywG6pTHM=" name="ToyFactory" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedAttribute xmi:id="AAAAAAFQdtDnRW7U6YU=" name="factory" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQdtCywG6pTHM=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQdtW04XEGfnc=" name="ID" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQdtK3M28O+qM=" name="getInstance" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAFQdtLi0G8VAOU=" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQdtCywG6pTHM=" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+				<ownedOperation xmi:id="AAAAAAFQdtLwQ28XKTg=" name="Produce" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQdtYhQXGAakU=" name="takeOrder" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<generalization xmi:id="AAAAAAFQdtRiem+GVWE=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFQdtCywG6pTHM=" general="AAAAAAFQds/NgG5lkdE="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQdtT6qnAseFk=" name="MainClass" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFQdtZjOHHWr5Q=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQdtZjOHHXxO0=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQdtT6qnAseFk="/>
+					<ownedEnd xmi:id="AAAAAAFQdtZjOHHYicE=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQa6zRHvqHkRw="/>
+					<memberEnd xmi:idref="AAAAAAFQdtZjOHHXxO0="/>
+					<memberEnd xmi:idref="AAAAAAFQdtZjOHHYicE="/>
+				</ownedMember>
+				<ownedOperation xmi:id="AAAAAAFQdtUSxHCAZ+c=" name="main" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

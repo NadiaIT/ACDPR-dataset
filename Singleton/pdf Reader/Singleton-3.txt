@@ -1,0 +1,3 @@
+Accesing resources in shared mode
+
+A small project is given to a group of students of IIT 4th semester students where they need to build a pdf reader. Many books can be opened at the same time using the pdf reader. Once a pdf file is loaded, the application will create a reader instance. The application will use that very reader instance to read all pdf files that will be loaded.

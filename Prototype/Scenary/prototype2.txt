@@ -1,0 +1,4 @@
+A game developer wants to create a scenary for a game where 
+three trees and two houses are needed. Each time one wants to create a scenary, 
+same trees and houses will be painted. But trees and houses sizes and colors can be different.
+ 

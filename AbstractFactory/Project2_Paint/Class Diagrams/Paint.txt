@@ -1,0 +1,42 @@
+From Source
+
+
+			Blue	Circle	Green	IColor	IShape	Paint	Rectangle	Red	Square	
+Blue		0		0		0		3		0		0		0			0	0	
+Circle		0		0		0		0		3		0		0			0	0	
+Green		0		0		0		3		0		0		0			0	0	
+IColor		0		0		0		0		0		0		0			0	0	
+IShape		0		0		0		0		0		0		0			0	0	
+Paint		2		2		2		0		0		0		2			2	2	
+Rectangle	0		0		0		0		3		0		0			0	0	
+Red			0		0		0		3		0		0		0			0	0	
+Square		0		0		0		0		3		0		0			0	0
+----------------------------------------------------------------------------------------------------------------------
+From UML
+
+
+			Blue Green Red IColor IShape Square Circle Triangle Paint 
+Blue		0	 0 		0	 3 		0 		0 		0 	  0		 0 
+Green		0  	 0 		0	 3 		0 		0 		0 	  0		 0 
+Red			0    0		0 	 3	 	0 		0 		0 	  0		 0 
+IColor		0	 0 		0	 0 		0 		0 		0 	  0		 0 
+IShape		0	 0 		0	 0 		0 		0 		0 	  0		 0 
+Square		0	 0 		0	 0 		3 		0 		0 	  0		 0 
+Circle		0	 0 		0	 0 		3 		0 		0 	  0		 0 
+Triangle	0	 0 		0	 0 		3 		0 		0 	  0		 0 
+Paint		2	 2 		2	 0 		0 		2 		2 	  2		 0 
+----------------------------------------------------------------------------------------------------------------------
+
+Product Type Matrix
+
+			Blue Green Red IColor IShape Square Circle Triangle Paint 
+Blue		 0		1	1	  0		0		0	   0	  0	  	  0	
+Green		 1		0	1	  0		0		0	   0	  0	  	  0	
+Red			 1		1	0	  0		0		0	   0	  0	  	  0	
+IColor		 0		0	0	  0		0		0	   0	  0	  	  0	
+IShape		 0		0	0	  0		0		0	   0	  0	  	  0	
+Square		 0		0	0	  0		0		0	   1	  1	  	  0	
+Circle		 0		0	0	  0		0		1	   0	  1	  	  0	
+Triangle	 0		0	0	  0		0		1	   1	  0	  	  0	
+Paint		 0		0	0	  0		0		0	   0	  0	  	  0	
+

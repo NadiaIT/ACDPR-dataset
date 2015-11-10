@@ -1,0 +1,33 @@
+From Source
+
+
+					MainClass	MazeBuilder	MazeLevel1Builder	MazeLevel2Builder	Painter	FixedDoor	GlassWall	IDoor	  Item	IWall	SlidingDoor	WoodenWall	
+MainClass				0			0			0					0					2		0			0			0		0		0		0			0	
+MazeBuilder				0			0			0					0					0		0			0			0		0		0		0			0	
+MazeLevel1Builder		0			3			0					0					0		2			0			0		0		0		0			2	
+MazeLevel2Builder		0			3			0					0					0		0			2			0		0		0		2			0	
+Painter					0			0			2					0					0		0			0			0		0		0		0			0		
+FixedDoor				0			0			0					0					0		0			0			3		0		0		0			0	
+GlassWall				0			0			0					0					0		0			0			0		0		3		0			0	
+IDoor					0			0			0					0					0		0			0			0		3		0		0			0	
+Item					0			0			0					0					0		0			0			0		0		0		0			0	
+IWall					0			0			0					0					0		0			0			0		3		0		0			0	
+SlidingDoor				0			0			0					0					0		0			0			3		0		0		0			0	
+WoodenWall				0			0			0					0					0		0			0			0		0		3		0			0	
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+From UML (different in positive way)
+
+					MainClass MazeBuilder FixedDoor Painter SlidingDoor GlassWall MazeLevel2Builder MazeLevel1Builder WoodenWall IDoor Item IWall 
+MainClass				0 			0 		0 			2 		0 			0 			2 				2 				0 			0 	0	 0 
+MazeBuilder				0 			0 		0 			0 		0 			0			0 				0 				0 			0 	2	 0 
+FixedDoor				0 			0 		0 			0 		0 			0 			0 				0 				0 			3 	0 	 0 
+Painter					0 			0 		0 			0 		0 			0 			0 				2 				0 			0 	0 	 0 
+SlidingDoor				0 			0 		0 			0 		0 			0 			0 				0 				0 			3 	0 	 0 
+GlassWall				0 			0 		0 			0		0	 		0 			0 				0 				0 			0 	0  	 3 
+MazeLevel2Builder		0 			3 		0 			0 		2		 	2 			0 				0 				0 			0 	0  	 0 
+MazeLevel1Builder		0 			3 		2 			0 		0 			0 			0 				0				2 			0 	0  	 0 
+WoodenWall				0 			0 		0 			0 		0 			0 			0 				0 				0 			0 	0  	 3 
+IDoor					0 			0 		0 			0 		0 			0 			0 				0 				0 			0 	3  	 0 
+Item					0 			0 		0 			0 		0 			0 			0 				0 				0 			0 	0  	 0 
+IWall					0 			0 		0 			0 		0 			0 			0 				0 				0 			0 	3  	 0 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------

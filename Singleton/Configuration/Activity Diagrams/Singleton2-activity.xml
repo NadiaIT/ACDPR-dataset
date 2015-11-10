@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQdzYGEAniig0=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFQdOTJibBMZ6Y=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+			<node xmi:id="AAAAAAFQdOTpHrBRsOg=" name="InitialNode1" visibility="public" xmi:type="uml:InitialNode"/>
+			<node xmi:id="AAAAAAFQdOUF9rBW3JQ=" name="InitialNode2" visibility="public" xmi:type="uml:InitialNode"/>
+			<node xmi:id="AAAAAAFQdOiWPLBdnQo=" name="write comments" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdOi/xLB22S8=" name="write status" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdPAFw7DDy+U=" name="Action1" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdP5nSrEPb1E=" name="MergeNode1" visibility="public" xmi:type="uml:MergeNode"/>
+			<node xmi:id="AAAAAAFQdQESErFLaKI=" name="Action2" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdQFhF7F0zss=" name="DecisionNode1" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFQdQF24rF56aw=" name="DecisionNode2" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFQdQY60bG8i9w=" name="initiate English_writer object" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdQZwobHVVKM=" name="write comments or status in English" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdQbrsrHu7Yk=" name="initiate Bengali_writer object" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdQcLQrIH8Sc=" name="write comments or status in Bengali" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdQnveLIl/mA=" name="ActivityFinalNode1" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<edge xmi:id="AAAAAAFQdOjgmLCPIRg=" visibility="public" source="AAAAAAFQdOTpHrBRsOg=" target="AAAAAAFQdOiWPLBdnQo=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdOkWzbCgmTU=" visibility="public" source="AAAAAAFQdOTpHrBRsOg=" target="AAAAAAFQdOi/xLB22S8=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdP6tUrEXfPI=" visibility="public" source="AAAAAAFQdOiWPLBdnQo=" target="AAAAAAFQdP5nSrEPb1E=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdP942rEuH1I=" visibility="public" source="AAAAAAFQdOi/xLB22S8=" target="AAAAAAFQdP5nSrEPb1E=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQHQ0rF/lj0=" name="yes" visibility="public" source="AAAAAAFQdP5nSrEPb1E=" target="AAAAAAFQdQFhF7F0zss=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQINErGQKOI=" name="no" visibility="public" source="AAAAAAFQdP5nSrEPb1E=" target="AAAAAAFQdQF24rF56aw=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQuu2rIqHJM=" name="no" visibility="public" source="AAAAAAFQdQF24rF56aw=" target="AAAAAAFQdQbrsrHu7Yk=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQxnmLJEx9E=" visibility="public" source="AAAAAAFQdQbrsrHu7Yk=" target="AAAAAAFQdQcLQrIH8Sc=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQyKsbJVcNE=" name="yes" visibility="public" source="AAAAAAFQdQF24rF56aw=" target="AAAAAAFQdQcLQrIH8Sc=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQ5M6bJrzfQ=" visibility="public" source="AAAAAAFQdQcLQrIH8Sc=" target="AAAAAAFQdQnveLIl/mA=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQ54ybJ8I9M=" visibility="public" source="AAAAAAFQdQZwobHVVKM=" target="AAAAAAFQdQnveLIl/mA=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdQ6RAbKN51o=" visibility="public" source="AAAAAAFQdQY60bG8i9w=" target="AAAAAAFQdQZwobHVVKM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdRFtIbKnGSY=" name="yes" visibility="public" source="AAAAAAFQdQFhF7F0zss=" target="AAAAAAFQdQZwobHVVKM=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdRIYebK9tI0=" name="no" visibility="public" source="AAAAAAFQdQFhF7F0zss=" target="AAAAAAFQdQY60bG8i9w=" xmi:type="uml:ControlFlow"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

@@ -1,0 +1,6 @@
+A farmer has three dogs, poodle, rottweiler, siberianHusky. 
+They bark loudlay whenever they are hungry. It seems to
+the farmer tat if they feel hungry they speaks out and 
+he gives them food immediately. Farmer just checks
+which one is speaking(barking) and provides food to him
+whatever food he has right then.

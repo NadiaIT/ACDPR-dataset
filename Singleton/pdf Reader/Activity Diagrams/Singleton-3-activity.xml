@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQd00Sr4wk+VE=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFQdI2qysKE22M=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+			<node xmi:id="AAAAAAFQdI3N4cKJNSc=" name="InitialNode1" visibility="public" xmi:type="uml:InitialNode"/>
+			<node xmi:id="AAAAAAFQdI59d8KORsI=" name="open a book" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdJA5f8Ks9OI=" name="DecisionNode1" visibility="public" xmi:type="uml:DecisionNode"/>
+			<node xmi:id="AAAAAAFQdJz/p8M4YUQ=" name="Load pdf reader" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdJ6kHsNUixA=" name="book is opened" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+			<node xmi:id="AAAAAAFQdKFtbsO3l0c=" name="ActivityFinalNode1" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+			<edge xmi:id="AAAAAAFQdJwjl8MnpbE=" visibility="public" source="AAAAAAFQdI59d8KORsI=" target="AAAAAAFQdJA5f8Ks9OI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdJ7qpsNu284=" visibility="public" source="AAAAAAFQdJz/p8M4YUQ=" target="AAAAAAFQdJ6kHsNUixA=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdJ8PRcN/lBU=" name="no" visibility="public" source="AAAAAAFQdJA5f8Ks9OI=" target="AAAAAAFQdJz/p8M4YUQ=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdKDgJsOhLBg=" visibility="public" source="AAAAAAFQdI3N4cKJNSc=" target="AAAAAAFQdI59d8KORsI=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdKIQZ8PCrOQ=" visibility="public" source="AAAAAAFQdJ6kHsNUixA=" target="AAAAAAFQdKFtbsO3l0c=" xmi:type="uml:ControlFlow"/>
+			<edge xmi:id="AAAAAAFQdKKf7sPYxJ0=" name="yes" visibility="public" source="AAAAAAFQdJA5f8Ks9OI=" target="AAAAAAFQdJ6kHsNUixA=" xmi:type="uml:ControlFlow"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

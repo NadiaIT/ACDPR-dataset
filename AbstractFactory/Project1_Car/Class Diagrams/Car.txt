@@ -1,0 +1,24 @@
+From Source
+
+			BMW	Car	DieselOil	Driver	Ferari	GasolineOil	Main	Oil	
+BMW			0	3	0			0		0		0			0		0	
+Car			0	0	0			0		0		0			0		0	
+DieselOil	0	0	0			0		0		0			0		3	
+Driver		2	0	2			0		2		2			0		0	
+Ferari		0	3	0			0		0		0			0		0	
+GasolineOil	0	0	0			0		0		0			0		3	
+Main		0	0	0			2		0		0			0		0	
+Oil			0	0	0			0		0		0			0		0
+-------------------------------------------------------------------------
+
+From UML
+			Driver BMW Car Ferari Diesel Gasoline Main Oil 
+Driver		0		2 	0 	2 		2 		2 		0 	0 
+BMW			0 		0 	3 	0 		0 		0 		0 	0 
+Car			0 		0 	0 	0 		0 		0 		0 	0 
+Ferari		0 		0 	3 	0 		0 		0 		0 	0 
+Diesel		0 		0 	0 	0 		0 		0 		0 	3 
+Gasoline	0 		0 	0 	0 		0 		0 		0 	3 
+Main		2 		0 	0 	0 		0 		0 		0 	0 
+Oil			0 		0 	0 	0 		0 		0 		0 	0 
+-------------------------------------------------------------------------

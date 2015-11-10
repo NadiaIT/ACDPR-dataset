@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQdv6cUVP/Nqo=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFQdKq+t5wsjYc=" name="Activity1" visibility="public" isReentrant="true" xmi:type="uml:Activity" isReadOnly="false" isSingleExecution="false">
+				<node xmi:id="AAAAAAFQdKsWJpwxaIA=" name="InitialNode1" visibility="public" xmi:type="uml:InitialNode"/>
+				<node xmi:id="AAAAAAFQdKsyPpw20JY=" name="Enter username and password" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+				<node xmi:id="AAAAAAFQdKuMTJxRug8=" name="DecisionNode1" visibility="public" xmi:type="uml:DecisionNode"/>
+				<node xmi:id="AAAAAAFQdKxMPJxfF3A=" name="create new logger" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+				<node xmi:id="AAAAAAFQdKx6/Jx5PCU=" name="use logger" visibility="public" xmi:type="uml:OpaqueAction" isLocallyReentrant="false" isSynchronous="true"/>
+				<node xmi:id="AAAAAAFQdKykrJyTSVw=" name="ActivityFinalNode1" visibility="public" xmi:type="uml:ActivityFinalNode"/>
+				<edge xmi:id="AAAAAAFQdK0SjJya890=" visibility="public" source="AAAAAAFQdKsWJpwxaIA=" target="AAAAAAFQdKsyPpw20JY=" xmi:type="uml:ControlFlow"/>
+				<edge xmi:id="AAAAAAFQdK1oTZyrJuQ=" visibility="public" source="AAAAAAFQdKsyPpw20JY=" target="AAAAAAFQdKuMTJxRug8=" xmi:type="uml:ControlFlow"/>
+				<edge xmi:id="AAAAAAFQdK6fhZy9Nrg=" name="no" visibility="public" source="AAAAAAFQdKuMTJxRug8=" target="AAAAAAFQdKxMPJxfF3A=" xmi:type="uml:ControlFlow"/>
+				<edge xmi:id="AAAAAAFQdK67BZzO8z8=" visibility="public" source="AAAAAAFQdKxMPJxfF3A=" target="AAAAAAFQdKx6/Jx5PCU=" xmi:type="uml:ControlFlow"/>
+				<edge xmi:id="AAAAAAFQdK7V9Zzfpoc=" visibility="public" source="AAAAAAFQdKx6/Jx5PCU=" target="AAAAAAFQdKykrJyTSVw=" xmi:type="uml:ControlFlow"/>
+				<edge xmi:id="AAAAAAFQdK/abpzxugs=" name="yes" visibility="public" source="AAAAAAFQdKuMTJxRug8=" target="AAAAAAFQdKx6/Jx5PCU=" xmi:type="uml:ControlFlow"/>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

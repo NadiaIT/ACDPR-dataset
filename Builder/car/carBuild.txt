@@ -1,0 +1,8 @@
+A car manufacture company builds cars of
+several design. But the company import the
+several part of a car from other branded 
+companies. After the chief designer decides
+which branded parts to use the company imports 
+wheels, stearings and rear view mirror of those 
+brands. After arranging all this  parts the company 
+manufactures a complete car.

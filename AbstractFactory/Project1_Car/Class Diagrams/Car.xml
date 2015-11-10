@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFNMxRWrAtN7fQ=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFNMtcFtunJYVc=" name="Driver" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFNMxO8OQgPTDA=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFNMxO8OQgQ6KY=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtcFtunJYVc="/>
+					<ownedEnd xmi:id="AAAAAAFNMxO8OQgRdEs=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtiAPOnvkww="/>
+					<memberEnd xmi:idref="AAAAAAFNMxO8OQgQ6KY="/>
+					<memberEnd xmi:idref="AAAAAAFNMxO8OQgRdEs="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFNMxPLmAhhJ/Y=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFNMxPLmAhiOgI=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtcFtunJYVc="/>
+					<ownedEnd xmi:id="AAAAAAFNMxPLmQhjXl4=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMts5Y+pjMfU="/>
+					<memberEnd xmi:idref="AAAAAAFNMxPLmAhiOgI="/>
+					<memberEnd xmi:idref="AAAAAAFNMxPLmQhjXl4="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFNMxPcfgjRuB0=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFNMxPcfwjSZ6Q=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtcFtunJYVc="/>
+					<ownedEnd xmi:id="AAAAAAFNMxPcfwjTzH4=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtshleo9YA4="/>
+					<memberEnd xmi:idref="AAAAAAFNMxPcfwjSZ6Q="/>
+					<memberEnd xmi:idref="AAAAAAFNMxPcfwjTzH4="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFNMxPrhQlfD2A=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFNMxPrhQlgmNM=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtcFtunJYVc="/>
+					<ownedEnd xmi:id="AAAAAAFNMxPrhQlhUKI=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtuVWeqKgn8="/>
+					<memberEnd xmi:idref="AAAAAAFNMxPrhQlgmNM="/>
+					<memberEnd xmi:idref="AAAAAAFNMxPrhQlhUKI="/>
+				</ownedMember>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFNMtiAPOnvkww=" name="BMW" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<generalization xmi:id="AAAAAAFNMvIAvgJG3pw=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFNMtiAPOnvkww=" general="AAAAAAFNMtsECeoWjhM="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFNMtsECeoWjhM=" name="Car" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Interface"/>
+			<packagedElement xmi:id="AAAAAAFNMtshleo9YA4=" name="Ferari" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<generalization xmi:id="AAAAAAFNMvHufwGf7P4=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFNMtshleo9YA4=" general="AAAAAAFNMtsECeoWjhM="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFNMts5Y+pjMfU=" name="Diesel" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<generalization xmi:id="AAAAAAFNMvI8WAQGqg8=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFNMts5Y+pjMfU=" general="AAAAAAFNMtyU0us2WTk="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFNMtuVWeqKgn8=" name="Gasoline" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<generalization xmi:id="AAAAAAFNMvJNcATbTuQ=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFNMtuVWeqKgn8=" general="AAAAAAFNMtyU0us2WTk="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFNMtv+eeqwPCo=" name="Main" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFNMxP9WwoLykM=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFNMxP9WwoMiyw=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtv+eeqwPCo="/>
+					<ownedEnd xmi:id="AAAAAAFNMxP9WwoN48k=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFNMtcFtunJYVc="/>
+					<memberEnd xmi:idref="AAAAAAFNMxP9WwoMiyw="/>
+					<memberEnd xmi:idref="AAAAAAFNMxP9WwoN48k="/>
+				</ownedMember>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFNMtyU0us2WTk=" name="Oil" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Interface"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

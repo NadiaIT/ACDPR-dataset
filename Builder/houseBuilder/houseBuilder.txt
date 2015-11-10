@@ -1,0 +1,6 @@
+A civil engineer engineers in building a house.
+A fulfill complete house is built via several 
+concrete several components.He has to design separately 
+the floor, the basement, the roof, and the interior to build a
+complete house. By using these processes he can built any kind of 
+well designed house such as igloo house or tipi house.

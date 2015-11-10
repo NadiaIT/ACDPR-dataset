@@ -1,0 +1,5 @@
+Clash of clan is a well known game now-a-days
+where there are many resources such as elixir 
+collector, goldmine, builder hut. Player can ask 
+builder factory to get this resources according to 
+their need.

@@ -1,0 +1,4 @@
+A new software company named Techforce  is looking forward to making a social networking site where people can share their social activities online. Each person will have individual 
+profile. People will have to log in using their username and password to access their accounts. Each time they log in, the system automatically restores the previous session of their 
+accounts. That is the system will provide the global login access point in all the application components without being necessary to create a whole new session each time a login 
+operation is performed.

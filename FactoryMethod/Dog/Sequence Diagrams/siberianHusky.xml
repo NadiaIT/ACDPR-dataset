@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQcYgtfUX+qCI=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFNqIh+kX7p7kY=" name="Collaboration1" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Collaboration">
+			<ownedMember xmi:id="AAAAAAFNqIh+kX7qnHY=" name="Interaction1" visibility="public" isReentrant="true" xmi:type="uml:Interaction">
+				<lifeline xmi:id="AAAAAAFNqIiJK375Waw=" name="Main" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFNqIiJK374g/c="/>
+				<lifeline xmi:id="AAAAAAFNqIiWB38YN18=" name="Food" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFNqIiWB38XjTY="/>
+				<lifeline xmi:id="AAAAAAFNqIioEX83u7M=" name="siberianHusky" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFNqIioEX829s0="/>
+				<message xmi:id="AAAAAAFNqIkJ0X9Yemo=" name="choose siberianHusky" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFQcYgthkYAkzM=" sendEvent="AAAAAAFQcYgthkX/Uoc="/>
+				<message xmi:id="AAAAAAFNqIkuMn9uVPo=" name="Feed him" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFQcYgth0YC4cQ=" sendEvent="AAAAAAFQcYgth0YBdqo="/>
+				<fragment xmi:id="AAAAAAFQcYgthkX/Uoc=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqIiJK375Waw="/>
+				<fragment xmi:id="AAAAAAFQcYgthkYAkzM=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqIioEX83u7M="/>
+				<fragment xmi:id="AAAAAAFQcYgth0YBdqo=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqIiJK375Waw="/>
+				<fragment xmi:id="AAAAAAFQcYgth0YC4cQ=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqIiWB38YN18="/>
+			</ownedMember>
+			<ownedAttribute xmi:id="AAAAAAFNqIiJK374g/c=" name="Role1" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFNqIiWB38XjTY=" name="Role2" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFNqIioEX829s0=" name="Role3" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

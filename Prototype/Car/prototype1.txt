@@ -1,0 +1,3 @@
+A car production company needs wheel of same design
+for each car. To produce a car four identical wheels, 4 doors and 4 seats are needed.
+After creating these elements the construction section produces a car.

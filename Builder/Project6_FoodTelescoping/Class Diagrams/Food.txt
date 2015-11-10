@@ -1,0 +1,16 @@
+From Source
+
+
+			FoodTelescopingDemo	MainClass	
+		
+FoodTelescopingDemo	0			0
+MainClass		2			0			
+------------------------------------------------------------
+From UML
+
+
+			FoodTelescopingDemo	MainClass	
+		
+FoodTelescopingDemo	0			0
+MainClass		2			0			
+----------------------------------------------------------------------------------------------------------------------

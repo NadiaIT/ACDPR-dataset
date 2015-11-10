@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQgMbEzkIw48w=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFNqEPgWn4lkfE=" name="Collaboration1" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Collaboration">
+			<ownedMember xmi:id="AAAAAAFNqEPgWn4maOM=" name="Interaction1" visibility="public" isReentrant="true" xmi:type="uml:Interaction">
+				<lifeline xmi:id="AAAAAAFNqEQR1X415o0=" name="Main" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFNqEQR1X40BLE="/>
+				<lifeline xmi:id="AAAAAAFNqEQgCn5UENg=" name="Car" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFNqEQgCn5T2Nk="/>
+				<lifeline xmi:id="AAAAAAFQdiIA0SNKYYw=" name="Wheel" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFQdiIA0SNJK+k="/>
+				<lifeline xmi:id="AAAAAAFQgDf7hqd/24U=" name="Door" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFQgDf7hqd+azo="/>
+				<lifeline xmi:id="AAAAAAFQgDhJaaeeMUc=" name="Seat" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFQgDhJaaedFxo="/>
+				<message xmi:id="AAAAAAFNqEXBE37KyXk=" name="run car" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFQgMbEzkIykzs=" sendEvent="AAAAAAFQgMbEzkIx6hk="/>
+				<message xmi:id="AAAAAAFQdiYx3CQ1vSA=" name="import a wheel" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFQgMbEzkI0C2Y=" sendEvent="AAAAAAFQgMbEzkIzjmk="/>
+				<message xmi:id="AAAAAAFQgDoh06fA8r0=" name="import a door" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFQgMbEzkI2ibQ=" sendEvent="AAAAAAFQgMbEzkI17Tk="/>
+				<message xmi:id="AAAAAAFQgDpAoafV7pA=" name="import a seat" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFQgMbEzkI4n4c=" sendEvent="AAAAAAFQgMbEzkI3t6g="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkIx6hk=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqEQR1X415o0="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkIykzs=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqEQgCn5UENg="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkIzjmk=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqEQgCn5UENg="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkI0C2Y=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFQdiIA0SNKYYw="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkI17Tk=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqEQgCn5UENg="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkI2ibQ=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFQgDf7hqd/24U="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkI3t6g=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFNqEQgCn5UENg="/>
+				<fragment xmi:id="AAAAAAFQgMbEzkI4n4c=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFQgDhJaaeeMUc="/>
+			</ownedMember>
+			<ownedAttribute xmi:id="AAAAAAFNqEQR1X40BLE=" name="Role1" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFNqEQgCn5T2Nk=" name="Role2" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFNqEQs9X5yjZk=" name="Role3" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFQdiIA0SNJK+k=" name="Role4" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFQdiKBFiNtnlY=" name="Role5" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFQdiKoFCONAvk=" name="Role6" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFQdjMgkW8Yqwc=" name="Role7" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFQgDf7hqd+azo=" name="Role8" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFQgDhJaaedFxo=" name="Role9" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

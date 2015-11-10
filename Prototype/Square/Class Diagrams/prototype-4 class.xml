@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFQgNo2vMdwKpQ=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFQf1TwNL3t758=" name="Paint" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFQf2cTjr8J7r4=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFQf2cTjr8KO7o=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQf1TwNL3t758="/>
+					<ownedEnd xmi:id="AAAAAAFQf2cTj78Legs=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFQgNjBRsYtk58="/>
+					<memberEnd xmi:idref="AAAAAAFQf2cTjr8KO7o="/>
+					<memberEnd xmi:idref="AAAAAAFQf2cTj78Legs="/>
+				</ownedMember>
+				<ownedAttribute xmi:id="AAAAAAFQf3O53cSyz8c=" name="Present" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQgNjBRsYtk58=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQf3QvicU9XOc=" name="Undo" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQgNjBRsYtk58=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFQf3RCjsViFt4=" name="Redo" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFQgNjBRsYtk58=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQf1VVX74gEI0=" name="Draw" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQf1Wy6r4nHXU=" name="Square" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedAttribute xmi:id="AAAAAAFQf4HPxcmA27Q=" name="Length" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQf2UJS76pDIo=" name="PresentState" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQf2VeEr6z58c=" name="UndoState" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQf2VsKb66Y8s=" name="RedoState" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<generalization xmi:id="AAAAAAFQgNkPL8Z0Lds=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFQf1Wy6r4nHXU=" general="AAAAAAFQgNjBRsYtk58="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQf2Q6+r51m3E=" name="Circle" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedAttribute xmi:id="AAAAAAFQf2RUBr6fad0=" name="radious" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAFQf2Zf1L7wHKQ=" name="PresentState" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQf2Z8bb73X0U=" name="UndoState" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+				<ownedOperation xmi:id="AAAAAAFQf2aetb7+PMc=" name="RedoState" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQgNigH8Xmgx4=" name="Circle" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<generalization xmi:id="AAAAAAFQgNkeysaaTGw=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFQgNigH8Xmgx4=" general="AAAAAAFQgNjBRsYtk58="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFQgNjBRsYtk58=" name="Shape" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

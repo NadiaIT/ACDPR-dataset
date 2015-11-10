@@ -1,0 +1,3 @@
+Factories implemented as Singletons
+
+Suppose you are the departmental head of the IT section of  a buying house. You want to build an application which will keep track of each and every deals and transactions with garment factories. The application should keep track of the interactions between the company and the factories. At the time of first transaction with each factory, the application will initiate a new module for that in its transaction section. Once a module for a factory is created, further transactions with that factory will be automatically added with that factory module.  

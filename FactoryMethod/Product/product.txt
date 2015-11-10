@@ -1,0 +1,6 @@
+A factory produces socks, shoes, t-shirts, shirts and pants
+of several designs as its product.
+Any client can order these two types product at any
+according to theis need. Whenever factory manager gets 
+an order it provides the client whatever product he/she
+chose to get.

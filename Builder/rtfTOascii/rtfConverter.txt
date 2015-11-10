@@ -1,0 +1,9 @@
+The Client needs to convert a document from RTF format to ASCII format. 
+He installs a software that does this woerk.
+The software does its work as it calls the method createASCIIText that takes as a 
+parameter the document that will be converted. This method calls the concrete builder,
+ASCIIConverter, that extends the Builder, TextConverter, and overrides 
+its two methods for converting characters and paragraphs, and also the Director, 
+RTFReader, that parses the document and calls the builders methods depending on the
+type of token encountered. The product, the ASCIIText, is built step by step, 
+by appending converted characters.
